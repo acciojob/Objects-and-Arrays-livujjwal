@@ -5,10 +5,13 @@ const person = {
   age: 80,
 };
 let team = players;
-let team1 =new players[];
+let team1 =[];
 let cap1 = {};
-for (let i of person) {
+for (let i in person) {
 	cap1[i] = person[i];
+}
+for (let i of players) {
+	team1 = i;
 }
 	
 }
