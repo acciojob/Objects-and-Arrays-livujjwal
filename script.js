@@ -10,8 +10,9 @@ let cap1 = {};
 for (let i in person) {
 	cap1[i] = person[i];
 }
-for (let i of players) {
-	team1 = i;
+for (let i in players) {
+
+	team1[i] = players[i];
 }
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
