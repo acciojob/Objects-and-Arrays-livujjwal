@@ -13,8 +13,6 @@ for (let i in person) {
 for (let i of players) {
 	team1 = i;
 }
-	
-}
 
 // Write your code here, make sure the name of variables is exactly same as mentioned in the problem statement
 
